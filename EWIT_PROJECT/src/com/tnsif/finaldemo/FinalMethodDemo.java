@@ -1,5 +1,14 @@
 package com.tnsif.finaldemo;
 
-public class FinalMethodDemo {
-
+public class FinalMethodDemo extends FinalMethodClass {
+	
+	@Override
+	void display() {
+		
+	}
+	//Final methods can't be overrided
+	/*
+	 * @Override void show() { }
+	 */
+	
 }
